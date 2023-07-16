@@ -1,0 +1,8 @@
+cooldown-duration: 60
+
+#MESSAGES - Use \n for breaking lines. - Hex and regular codes supported (&# and &)
+reload: "&#A0F5FFThe plugin was successfully reloaded."
+player-only: "&cThis command can only be executed by players"
+broadcast-town: "&#DCFF9B{player} is looking for a town."
+cooldown-message: "&#FF3B3BYou must wait {time} seconds before using this command again."
+in-town: "&#FF3B3BYou can't use this command if you already belong to a town."

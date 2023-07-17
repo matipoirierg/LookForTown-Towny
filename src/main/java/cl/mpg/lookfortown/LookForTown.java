@@ -31,7 +31,7 @@ public final class LookForTown extends JavaPlugin implements CommandExecutor {
         loadMessagesConfig();
 
         cooldownDuration = getConfig().getInt("cooldown-duration");
-        String cooldownMessageRaw = getConfig().getString("cooldown-message");
+        String cooldownMessageRaw = getConfig().getString("wait-message");
         cooldownMessage = (cooldownMessageRaw != null) ? ChatColor.translateAlternateColorCodes('&', hexTranslator.translateHexColorCodes("&#", "", cooldownMessageRaw)) : "";
 
         cooldowns = new HashMap<>();
